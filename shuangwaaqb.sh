@@ -5,7 +5,7 @@ set -e
 echo "========== apoolminer 自动安装并注册为服务 =========="
 
 # 默认账户和矿池配置
-ACCOUNT="${1:-CP_*******36}"
+ACCOUNT="${1:-CP_efl292npux}"
 INSTALL_DIR="/opt/apoolminer"
 SERVICE_FILE="/etc/systemd/system/apoolminer.service"
 POOL="qubic.eu.apool.net:8080" # 注意：脚本中的算法参数是 --algo xmr，但矿池地址qubic.eu.apool.net:8080是Qubic矿池。请确保算法和矿池匹配。
